@@ -1,0 +1,109 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fcf8f8;
+    color: grey
+}
+
+.main-content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    display: block
+}
+
+header li {
+    display: inline;
+    justify-items: center;
+    margin: 3em;
+}
+
+header ul a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: grey;
+    transition: width 0.5s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a, a:hover {
+    color: grey;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 2vh;
+
+
+}
+
+ul {
+    justify-items: center;
+    padding: 0;
+}
+
+
+
+
+ul a:hover:after { 
+    width: 30%; 
+    left: 35%; 
+}
+
+.title-header {
+    text-align: right;
+    background-color: rgb(254, 195, 184);
+    margin-left: 20%;
+    margin-right: -10%;
+    padding: 30px 15% 30px 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.about-me,  .projects-section, .contact-section {
+    margin-top: 18vh;
+}
+
+
+
+#hello-text{
+    opacity:0;  
+    font-size: 8vh;
+}
+
+#self-description{
+    opacity:0;  
+    font-size: 3vh;
+    margin-left: 6vw
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    column-gap: 20px;
+
+}
+
+.screenshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: lightgrey 1px solid;
+    border-radius: 5px;
+    opacity: 0.8
+    
+
+}
+
+.contact-section h2{
+    text-align: right;
+}

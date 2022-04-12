@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!-- jquery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+  
+    <script
+      
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <!-- javascripts -->
+    <script defer src="app.js"></script>
+    <!-- bootstrap + css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+      <link rel="stylesheet" href = style.css type = "text/css"> 
+
+    <title>Nicole Lim Tung</title>
+</head>
+<body>
+    <header>
+        <h1>Nicole Lim Tung</h1>
+
+        <ul>
+          <a href = "https://github.com/nlimtung"> <li>Github</li></a>
+          <a href = "https://www.linkedin.com/in/nicole-lim-tung-452784174/"> <li>LinkedIn</li></a>
+          <a href> <li>Contact</li></a>
+        </ul>
+      </header>
+
+
+    <div class = "main-content">
+        <!-- about me  -->
+
+        <div class = "about-me">
+            <i> <h1 id = "hello-text">Hello world, </h1> </i>    
+
+            <h2 id = "self-description">
+                </br>
+                I'm Nicole                
+                </br>
+                </br>
+
+                I am a software developer based in Toronto. Previously practicing as a pharmacist, I hope to combine my skills in software development with a passion for health and patient care
+                </br>
+                </br>
+                In my spare time I enjoy crafting and spending time with family  
+           </h2>
+
+        </div>
+
+<!-- projects -->
+
+        <div class = "projects-section">
+            <div class = "title-header">
+                <h2><i><b>Projects</b></i></h2>
+
+            </div>
+
+
+            <div class = "project">
+                <div>
+                    <h3>RX Relief</h3></br>
+                    <ul>
+                        <p>Developed a full stack application to help retail pharmacies connect with pharmacists to post and fill shifts. </p>
+                        <p>Tools used: React, Express, Node.js, Javascript, MongoDB, HTML, CSS</p>
+                    </ul>
+                    <a href = "https://github.com/nlimtung/ReliefRX">
+                        <button type="button" class="btn btn-outline-secondary">GitHub</button>
+                    </a>
+                    <a href = "https://rxreliefsei.herokuapp.com/">
+                        <button type="button" class="btn btn-outline-secondary">Live Site </button>
+                    </a>
+                </div>
+                <div>
+                    <img src = "images/reliefrx screenshot.png" class = "screenshot">
+                 </div>
+            </div>
+            <hr>
+
+            <div class = "project">
+                <div>
+                    <h3>Goal Getter</h3></br>
+                    <ul>
+                        <p>Collaborated with a a team of UX/UI designers to create a mobile application to help reduce poor spending habits, and place those savings into other financial goals </p>
+                        <p>This project was completed over four days as part of a hackathon with a theme of financial wellness</p>
+                        <p>Tools used: React, Express, Node.js, Javascript, MongoDB, HTML, CSS</p>           
+                     </ul>
+                    <a href = "https://github.com/nlimtung/financialhackathon">
+                        <button type="button" class="btn btn-outline-secondary">GitHub </button>
+                    </a>
+                    <a href = "https://goal-getter-hackathon.herokuapp.com">
+                        <button type="button" class="btn btn-outline-secondary">Live Site </button>
+                    </a>
+                </div>
+                <div>
+                    photo
+                 </div>
+            </div>
+            <hr>
+
+            <div class = "project">
+
+                 <div>
+                    <h3>Shop Local Toronto</h3></br>
+                    <ul>
+                        <p>Collaborated with a team of three in creating a full-stack web app to provide small businesses a platform to connect with consumers </p>
+                        <p>Tools used: Django, Python, PostgreSQL, HTML, CSS, </p>
+                    </ul>
+                    <a href = "https://github.com/nlimtung/shopTO">
+                        <button type="button" class="btn btn-outline-secondary">GitHub </button>
+                    </a>
+                    <a href = "https://shoplocalto.herokuapp.com/">
+                        <button type="button" class="btn btn-outline-secondary">Live Site </button>
+                    </a>
+                </div>
+                <div>
+                    <img src = "images/shop-local-screenshot.png" class = "screenshot">
+                </div>
+            </div>
+            <hr>
+
+            <div class = "project">
+                 <div>
+                    <h3>Blood Sugar Tracker</h3></br>
+                    <ul>
+                        <p>Developed a full stack  app to allow patients with diabetes to track blood sugar levels, and monitor insulin levels</p>
+                        <p>Tools used: Express, Node.js, Chart.js,  MongoDB,  Javascript, HTML, CSS</p> 
+                    </ul>
+                    <a href = "https://github.com/nlimtung/bloodsugartracker">
+                        <button type="button" class="btn btn-outline-secondary">GitHub </button>
+                    </a>
+                    <a href = "https://sei-bloodsugartracker.herokuapp.com/">
+                        <button type="button" class="btn btn-outline-secondary">Live Site </button>
+                    </a>
+                </div>
+                <div>
+                    <img src = "images/blood-sugar-screenshot.png" class = "screenshot">
+                </div>
+            </div>
+            <hr>
+            <div class = "project">
+
+                 <div>
+                    <h3>Simon Says Game</h3></br>
+                    <ul>
+                        <p>Developed a front-end application of the classic children’s game</p>
+                        <p>Tools used: Javascript, HTML, CSS </p>
+                    </ul>
+                    <a href = "https://github.com/nlimtung/SimonSaysGame">
+                        <button type="button" class="btn btn-outline-secondary">GitHub </button>
+                    </a>
+                    <a href = "https://pages.git.generalassemb.ly/nlimtung/Simon-Says-game/">
+                        <button type="button" class="btn btn-outline-secondary">Live Site </button>
+                    </a>
+                </div>
+                <div class = "screenshot">
+                    <img src = "images/Simon-Says.png" class = "screenshot"id = "screenshotgame">
+                </div>
+
+
+
+
+            </div>
+            <hr>
+
+
+        </div>
+
+
+
+        <div class = "contact-section">
+            <div class = "title-header">
+                <h2><i><b>Contact</b></i></h2>
+
+            </div>
+            </br>
+            
+            <h2>say hello:</br> </br> email: nlimtung@gmail.com</h2>
+        </br>
+    </br>
+</br>
+
+        </div>
+    </div>
+</body>
+</html>
