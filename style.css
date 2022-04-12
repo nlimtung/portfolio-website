@@ -1,6 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #fcf8f8;
+    background-color: #ffffff;
     color: grey
 }
 
@@ -10,10 +10,18 @@ body {
 }
 
 header{
+    
     text-align: center;
     padding: 20px 20px 20px 20px;
+    position: relative;
     width: 100%;
-    display: block
+    display: block;
+
+
+
+}
+ h1 {
+    font-size: 3rem;
 }
 
 header li {
@@ -26,10 +34,10 @@ header ul a:after {
     bottom: 0;
     content: "";
     display: block;
-    height: 1px;
+    height: 2px;
     left: 50%;
     position: absolute;
-    background: grey;
+    background: tomato;
     transition: width 0.5s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
@@ -40,7 +48,6 @@ a, a:hover {
     display: inline-block;
     position: relative;
     font-size: 2vh;
-
 
 }
 
@@ -59,29 +66,54 @@ ul a:hover:after {
 
 .title-header {
     text-align: right;
-    background-color: rgb(254, 195, 184);
-    margin-left: 20%;
+    background-color: rgba(255, 144, 125, 0.836);
+    margin-left: 12vw;
     margin-right: -10%;
-    padding: 30px 15% 30px 0;
+    padding: 30px 10% 30px 0;
     color: white;
     border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+
 }
 
-.about-me,  .projects-section, .contact-section {
-    margin-top: 18vh;
+.about-me {
+    margin-top: 8vh;
+}
+.about-me h1 {
+    color: tomato;
+    text-shadow: -8px -8px rgba(233, 230, 230, 0.646);
+    font-family: 'Roboto Mono', monospace;
+    
+
+
 }
 
+
+.projects-section {
+    margin-top: 16vh;
+    margin-bottom: 9vh;
+}
+
+.contact-section {
+    margin-top: 12vh;
+    margin-bottom: 6vh;
+}
 
 
 #hello-text{
     opacity:0;  
-    font-size: 8vh;
+    font-size: 9vh;
 }
 
 #self-description{
     opacity:0;  
     font-size: 3vh;
-    margin-left: 6vw
+    margin-left: 12vw;
+    margin-top: 3vh;
+    background-color: rgba(254, 194, 184, 0.564);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: -40px -40px rgba(233, 230, 230, 0.488);
 }
 
 .project {
@@ -104,6 +136,14 @@ ul a:hover:after {
 
 }
 
-.contact-section h2{
+.contact-section h3{
     text-align: right;
+}
+
+.fadein {
+    opacity: 0.2;
+}
+
+#fadein {
+    opacity: 0.1;
 }
