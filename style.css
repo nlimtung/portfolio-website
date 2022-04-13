@@ -131,6 +131,26 @@ ul a:hover:after {
 
 }
 
+#wide-screenshot {
+    margin-left: 25%;
+    width: 50%;
+ 
+    opacity: 0.8
+}
+
+#mobile-screenshot {
+    display: flex;
+}
+
+#mobile-screenshot  img{
+    margin: auto;
+    height: 550px;
+    border: lightgrey 1px solid;
+    border-radius: 5px;
+    opacity: 0.8;
+
+}
+
 .screenshot {
     width: 100%;
     height: 100%;
@@ -142,7 +162,8 @@ ul a:hover:after {
 
 }
 
-.contact-section h3{
+
+#contact-section h3{
     text-align: right;
 }
 
@@ -152,4 +173,8 @@ ul a:hover:after {
 
 #fadein {
     opacity: 0.1;
+}
+
+.project h3{
+    color: tomato;
 }
