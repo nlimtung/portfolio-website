@@ -18,7 +18,7 @@ header{
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
  h1 {
     font-size: 3rem;
@@ -138,13 +138,12 @@ ul a:hover:after {
 .screenshot {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border: lightgrey 1px solid;
     border-radius: 5px;
     opacity: 0.8
     
 }
-
 
 #contact-section h3, h4{
     text-align: right;
