@@ -95,7 +95,7 @@ ul a:hover:after {
 
 #hello-text{
     opacity:0;  
-    font-size: 9vh;
+    font-size: 5vw;
 }
 
 #self-description{
@@ -109,12 +109,36 @@ ul a:hover:after {
     box-shadow: -40px -40px rgba(233, 230, 230, 0.488);
 }
 
-.project {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    column-gap: 20px;
+
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        column-gap: 20px;
+    }
+
+
+@media screen and (max-width: 1000px) {
+    .project {
+        display:block;
+    }
+
+    .main-content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #self-description{
+        box-shadow: none;
+        margin-left: 0px;
+        padding: 10px
+    }
+
+    img{
+        margin-top: 20px;
+    }
+    
 }
 
 #wide-screenshot {
